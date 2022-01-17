@@ -1,7 +1,7 @@
 package ru.lesson1;
 
 public abstract class Car implements Moveable, Stopable {
-    public Engine engine;
+    private Engine engine;
     private String color;
     private String name;
 
