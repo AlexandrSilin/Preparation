@@ -99,7 +99,7 @@ public class Person {
     public static class PersonBuilder {
         private final Person person;
 
-        public PersonBuilder() {
+        private PersonBuilder() {
             person = new Person();
         }
 
