@@ -1,16 +1,15 @@
 package ru.lesson1;
 
-public class LightWeightCar extends Car implements Moveable{
-
-    @Override
-    void open() {
-        System.out.println("Car is open");
-    }
+public class LightWeightCar extends Car {
 
     @Override
     public void move() {
         System.out.println("Car is moving");
     }
 
+    @Override
+    public void stop() {
+        System.out.println("Car is stop");
+    }
 }
 

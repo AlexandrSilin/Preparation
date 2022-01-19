@@ -1,12 +1,14 @@
 package ru.lesson1;
 
-public class Lorry extends Car, Moveable, Stopable{
+public class Lorry extends Car {
 
-    public void move(){
+    @Override
+    public void move() {
         System.out.println("Car is moving");
     }
 
-    public void stop(){
+    @Override
+    public void stop() {
         System.out.println("Car is stop");
     }
 }
